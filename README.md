@@ -63,9 +63,7 @@ While not letting you post `transaction`s or `pad` directives to this account:
 ## Installing + Usage
 
 ```
-git clone https://github.com/MatthewRFennell/non_leaf_account_restrictions
-cd non_leaf_account_restrictions
-pip3 install .
+pip3 install git+https://github.com/MatthewRFennell/non_leaf_account_restrictions.git
 ```
 
 And then, in your `beancount` file:
